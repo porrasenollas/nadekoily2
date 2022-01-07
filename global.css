@@ -33,16 +33,18 @@ code {
 }
 
 
-.container-img{
+.container-rechulo{
 
-
-
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-right: auto;
+  margin-left: auto;
 
 }
 
 
-@media (max-width: 600px) {
-  .facet_sidebar {
+@media (max-width: 1920px) {
+  .middleAlign {
     display: none;
   }
 }
