@@ -40,7 +40,22 @@ code {
   align-items: center;
   text-align: center;
 }
+.card {
 
+}
+.card:hover {
+  
+}
+.imagencita{
+  width: 130px;
+  height: 195px;
+  background: url("data/background-img.png") no-repeat;
+  display: inline-block;
+}
+
+.imagencita:hover{
+  background: url("data/poink.png") no-repeat;
+}
 
 }
 
