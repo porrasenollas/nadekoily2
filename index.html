@@ -14,25 +14,28 @@
 <body>
 
 <center>
+    
     <p> pued ser pa </p>
     <img src = "data/background-img.png" onclick= 'frasotas()'>
+
+    <script>
+
+        function frasotas(){
+            var myArray = ['Que guapo eres joder', 'eres el mejor', 'uwuwuwuwu', 'puedeeserpa', 'mas mariconadas'];
+            var rand = ~~(Math.random()*myArray.length);
+            var rValue = myArray[rand];
+            console.log(rValue);
+            document.writeln(rValue);
+    
+        }
+    
+    </script>
 
 
 </center>
 
 </body>
 
-
-<script>
-
-    function frasotas(){
-        var frase1 = "ola";
-
-        document.write(frase1);
-
-    }
-
-</script>
 
 
 
