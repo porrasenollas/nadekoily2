@@ -1,11 +1,17 @@
-html,
+@media (max-width: 900px){
 body {
-
+  font-family: monospace, "monaco";
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #333;
+  
 
 }
 
 * {
   box-sizing: border-box;
+  text-shadow: 1px 1px 1px #000,
+  3px 3px 3px rgb(0, 0, 0);
 }
 
 main {
@@ -34,7 +40,7 @@ code {
 }
 
 
-
+}
 
 @media (max-width: 1920px) {
   .middleAlign {
