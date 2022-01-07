@@ -47,8 +47,6 @@ code {
   
 }
 .imagencita{
-  width: 130px;
-  height: 195px;
   background: url("data/background-img.png") no-repeat;
   display: inline-block;
 }
