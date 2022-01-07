@@ -14,9 +14,11 @@
 <body>
 
 <center>
-    
+
     <p> pued ser pa </p>
     <img src = "data/background-img.png" onclick= 'frasotas()'>
+
+    <div id="msg"></div>
 
     <script>
 
@@ -25,7 +27,8 @@
             var rand = ~~(Math.random()*myArray.length);
             var rValue = myArray[rand];
             console.log(rValue);
-            document.writeln(rValue);
+            prueba = document.getElementById("msg");
+            prueba.innerHTML = rValue;
     
         }
     
