@@ -48,6 +48,7 @@ code {
   .secret{
     display: none;
   }
+
 }
 
 @media (max-width: 1920px) {
@@ -56,5 +57,11 @@ code {
     color: black;
     margin: 250px;
     text-align: center;
+  }
+}
+
+@media (min-width: 900px){
+  .container{
+    display: none;
   }
 }
