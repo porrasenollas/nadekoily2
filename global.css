@@ -44,16 +44,17 @@ code {
 
 }
 
-@media (min-width: 900px) {
-  body{
+@media (max-width: 900px) {
+  .secret{
     display: none;
   }
+}
+
+@media (max-width: 1920px) {
   .secret{
-    font-family: monospace, "monaco";
-    font-size: 14px;
-    line-height: 1.42857143;
-    color: #fafafa;
-    text-shadow: 1px 1px 1px #000,
-    3px 3px 3px rgb(0, 0, 0);
+    font-size: 25px;
+    color: black;
+    margin: 250px;
+    text-align: center;
   }
 }
