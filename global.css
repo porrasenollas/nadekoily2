@@ -42,12 +42,12 @@ code {
 }
 
 .imagencita{
-  background-image: url("data/background-img.png") no-repeat;
+  background: url("data/background-img.png") no-repeat;
   display: inline-block;
 }
 
 .imagencita:hover{
-  background-image: url("data/poink.png") no-repeat;
+  background: url("data/poink.png") no-repeat;
 }
 
 }
