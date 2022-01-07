@@ -41,15 +41,6 @@ code {
   text-align: center;
 }
 
-.imagencita{
-  background: url("data/background-img.png") no-repeat;
-  display: inline-block;
-}
-
-.imagencita:hover{
-  background: url("data/poink.png") no-repeat;
-}
-
 }
 
 @media (max-width: 900px) {
