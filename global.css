@@ -4,6 +4,8 @@ body {
   font-size: 14px;
   line-height: 1.42857143;
   color: #fafafa;
+  background-image: url(/data/nubes.jpg);
+  background-size: cover;
   
 
 }
@@ -12,7 +14,6 @@ body {
   box-sizing: border-box;
   text-shadow: 1px 1px 1px #000,
   3px 3px 3px rgb(0, 0, 0);
-  text
 }
 
 main {
