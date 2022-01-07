@@ -3,7 +3,7 @@ body {
   font-family: monospace, "monaco";
   font-size: 14px;
   line-height: 1.42857143;
-  color: #CFD0E6;
+  color: #fafafa;
   background-image: url(/data/nubes.jpg);
   background-size: cover;
   
@@ -45,7 +45,15 @@ code {
 }
 
 @media (max-width: 1920px) {
-  .middleAlign {
+  body{
     display: none;
+  }
+  .secret{
+    font-family: monospace, "monaco";
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #fafafa;
+    text-shadow: 1px 1px 1px #000,
+    3px 3px 3px rgb(0, 0, 0);
   }
 }
