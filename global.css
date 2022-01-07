@@ -2,6 +2,7 @@ html,
 body {
 
     background-image: url("/data/background-img.png");
+    background-size: contain;
 }
 
 * {
