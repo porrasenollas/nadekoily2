@@ -30,17 +30,10 @@ code {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 
 
-.container-rechulo{
-
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-right: auto;
-  margin-left: auto;
-
-}
 
 
 @media (max-width: 1920px) {
